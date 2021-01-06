@@ -125,8 +125,20 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                Pending Requests</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                                Query Pending</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                            <?php
+                                                /**dyanamic code for showing no of admin  */
+                                                 require 'dbconfig.php';
+
+                                                 $query="select id from query order by id";
+                                                 $query_run=mysqli_query($connection,$query);
+                                                 $row=mysqli_num_rows($query_run);
+
+                                                 echo '<h1>'.$row.'</h1>';
+
+                                                ?>
+                                            </div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-comments fa-2x text-gray-300"></i>

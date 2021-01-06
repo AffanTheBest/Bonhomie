@@ -91,6 +91,28 @@
 
 
 
+/**code for deleting query */
+ if(isset($_POST['deletebtn1'])){
+
+  $id=$_POST['delete_id1'];
+  $query="delete  from query where id='$id'";
+  $query_run=mysqli_query($connection,$query);
+
+  if($query_run){
+
+    $_SESSION['success']="your data is Deleted successfully";
+    header('location:query.php');
+  }
+  else{
+    $_SESSION['status']="No Data Deleted";
+    header('location:query.php');
+
+  }
+ }
+
+
+
+
 /**code for  admin login  */
 include('security.php');
 if(isset($_POST['login_btn'])){
