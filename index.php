@@ -36,14 +36,18 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               
-                <a class="dropdown-item" href="#">Sports</a>
-                <a class="dropdown-item" href="#">Technical</a>
-                <a class="dropdown-item" href="#">Cultural</a>
-                <a class="dropdown-item" href="#">Co-ordinators</a>
+                <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1GapDdvSz3gmCcAQexoWOLxlK9_-XFYTy">Sports</a>
+                <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1FB662S8O91dW8d1NJHmx1WgVKblLlNn8">Technical</a>
+                <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1rPS7TNuZumVEwgWhRAcXLL5uwm-TWN41">Cultural</a>
+                <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1KqaN-iv1EiVDuvBsbeg9LX2yUgc0q5On
+">Co-ordinators</a>
                
               </li>
             <li class="nav-item ml-1">
-              <a class="nav-link" href="technical/">About us</a>
+              <a class="nav-link" href="aboutus/">About us</a>
+            </li>
+            <li class="nav-item ml-1">
+              <a class="nav-link" href="login/">Logout </a>
             </li>
             
           </ul>
@@ -178,7 +182,7 @@
           <textarea class="form-control" id="query" rows="3" name="query"></textarea>
         </div>
      
-      <input type="submit" class="btn btn-success" name="submit01" value="Request Query"/>
+      <input type="submit" class="btn btn-success" name="submit01" value=" Submit"/>
       </div>
       </form>
     </div>

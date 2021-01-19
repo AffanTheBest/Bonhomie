@@ -33,10 +33,10 @@
                   <a class="nav-link" href="#">Sports</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Technical</a>
+                  <a class="nav-link" href="../technical">Technical</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Cultural</a>
+                  <a class="nav-link" href="../cultural">Cultural</a>
                 </li>
               </ul>
             </div>

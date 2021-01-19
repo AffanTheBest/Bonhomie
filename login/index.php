@@ -37,7 +37,7 @@ session_start();
               ?>
                   <script>
                    alert("Login Successfull");
-                      location.replace("../home/index.php");
+                      location.replace("../");
                   </script>
               <?php
           }else{
