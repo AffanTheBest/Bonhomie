@@ -1,9 +1,9 @@
 <?php
 
-$server ="localhost";
-$user ="root";
-$password ="";
-$db ="Bonhomie";
+$server ="remotemysql.com";
+$user ="IipECoeakJ";
+$password ="i9a7MM89Ma";
+$db ="IipECoeakJ";
 
 $con = mysqli_connect($server,$user,$password,$db);
 
