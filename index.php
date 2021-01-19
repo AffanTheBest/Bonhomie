@@ -68,13 +68,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="" src="img1.jpg" alt="Los Angeles" width="100%" height="600">
+            <img class="" src="img/img1.jpg" alt="Los Angeles" width="100%" height="600">
           </div>
           <div class="carousel-item">
-            <img class="" src="img2.jpg" alt="Los Angeles" width="100%" height="600">
+            <img class="" src="img/img2.jpg" alt="Los Angeles" width="100%" height="600">
           </div>
           <div class="carousel-item">
-            <img class="" src="img3.jpg" alt="Los Angeles" width="100%" height="600">
+            <img class="" src="img/img3.jpg" alt="Los Angeles" width="100%" height="600">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
