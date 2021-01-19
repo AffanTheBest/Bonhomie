@@ -26,10 +26,10 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="#">Sports</a>
                 </li>
                 <li class="nav-item">
@@ -52,7 +52,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-           <img src="../img/SPORT1.JPG" class="d-block w-100 h-90 img-fluid"  alt="...">
+           <img src="../img/img2.JPG" class="d-block w-100 h-90 img-fluid"  alt="...">
           </div>
           <div class="carousel-item">
            <img src="../img/img2.JPG" class="d-block w-100 h-90 img-fluid"  alt="...">
@@ -76,21 +76,18 @@
 
     <!-- Sports -->
 
-    <section id="sports" class="sports">
-      
-    
-      <!-- MODAL -->
+    <section id="events" class="events">
 
         <div class="container">
-            <h1 class="text-center text-light font-weight-bold my-5">SPORTS</h1>
-            <div class="row">
-                <div class="col my-5 text-center">
-                  <div class="card text-dark" id="card2" style="width: 18rem;">
+            <h1 class="text-center text-dark font-weight-bold my-5">Cultural Events</h1>
+            <div class="row text-center mx-auto w-100">
+                <div class="col my-5 text-center w-100" title="Hover on image to register">
+                  <div class="card card1 text-dark mx-auto" id="card2" style="width: 18rem;">
                       <div class="cardheader">
                         <img class="img-fluid" src="cricket.jpg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Cricket</h2>
-                              <a href="registration.php">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -99,13 +96,13 @@
                     </div>
                  </div>
                 </div>
-                <div class="col my-5 text-center">
-                  <div class="card text-dark" id="card2" style="width: 18rem;">
+                <div class="col my-5 text-center w-100" title="Hover on image to register">
+                  <div class="card text-dark mx-auto" id="card2" style="width: 18rem;">
                       <div class="cardheader">
                         <img class="img-fluid" src="cricket-box.jpeg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Cricket [Box]</h2>
-                              <a href="registration.php">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -114,13 +111,13 @@
                     </div>
                  </div>
                 </div>
-                <div class="col my-5 text-center">
-                  <div class="card text-dark" id="card2" style="width: 18rem;">
+                <div class="col my-5 text-center w-100" title="Hover on image to register">
+                  <div class="card card3 text-dark mx-auto" id="card2" style="width: 18rem;">
                       <div class="cardheader">
                         <img class="img-fluid" src="football.jpg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Football</h2>
-                              <a href="registration.php">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -130,15 +127,14 @@
                  </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col my-5 text-center">
-                  <div class="card text-dark" id="card2" style="width: 18rem;">
+                        <div class="row text-center mx-auto w-100">
+                <div class="col my-5 text-center w-100" title="Hover on image to register">
+                  <div class="card card1 text-dark mx-auto" id="card2" style="width: 18rem;">
                       <div class="cardheader">
                         <img class="img-fluid" src="badminton.jpg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Badminton</h2>
-                              <a href="registration.php">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -147,13 +143,13 @@
                     </div>
                  </div>
                 </div>
-                <div class="col my-5 text-center">
-                  <div class="card text-dark" id="card2" style="width: 18rem;">
+                <div class="col my-5 text-center w-100" title="Hover on image to register">
+                  <div class="card text-dark mx-auto" id="card2" style="width: 18rem;">
                       <div class="cardheader">
                         <img class="img-fluid" src="volleyball.jpeg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Volleyball</h2>
-                              <a href="registration.php">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -162,13 +158,13 @@
                     </div>
                  </div>
                 </div>
-                <div class="col my-5 text-center">
-                  <div class="card text-dark" id="card2" style="width: 18rem;">
+                <div class="col my-5 text-center w-100" title="Hover on image to register">
+                  <div class="card card3 text-dark mx-auto" id="card2" style="width: 18rem;">
                       <div class="cardheader">
                         <img class="img-fluid" src="running.jpg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Running</h2>
-                              <a href="registration.php">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -179,6 +175,7 @@
                 </div>
             </div>
         </div>
+    </section>
     </section>
     <!-- Sports -->
 
@@ -215,7 +212,7 @@
             </div>
           </div>
           <div class="info">
-                <h6 class="text-center text-grey" style="color: #000000;">Managed By : Sakib Arkate | Siddiqui Affan | Siddiqui Sufiyan</h6>
+                <h6 class="text-center text-white" style="color: #000000;">Managed By : Sakib Arkate | Siddiqui Affan | Siddiqui Sufiyan</h6>
           </div>
       </div>
     </section>

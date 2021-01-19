@@ -39,16 +39,17 @@
                 <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1GapDdvSz3gmCcAQexoWOLxlK9_-XFYTy">Sports</a>
                 <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1FB662S8O91dW8d1NJHmx1WgVKblLlNn8">Technical</a>
                 <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1rPS7TNuZumVEwgWhRAcXLL5uwm-TWN41">Cultural</a>
-                <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1KqaN-iv1EiVDuvBsbeg9LX2yUgc0q5On
-">Co-ordinators</a>
-               
+                <a class="dropdown-item" href=" https://drive.google.com/uc?export=download&id=1KqaN-iv1EiVDuvBsbeg9LX2yUgc0q5On">Co-ordinators</a>
               </li>
             <li class="nav-item ml-1">
               <a class="nav-link" href="aboutus/">About us</a>
             </li>
             <li class="nav-item ml-1">
-              <a class="nav-link" href="login/">Logout </a>
+              <a class="nav-link" href="admin/">Admin</a>
             </li>
+            <!-- <li class="nav-item ml-1">
+              <a class="nav-link" href="login/">Logout </a>
+            </li> -->
             
           </ul>
         </div>
@@ -157,8 +158,8 @@
                      <img class="my-3" src="img/event.png" alt="" style="width:100px;height:100px;">
                   </div>
                   <div class="login_btn mt-2 mb-3">
-                          <a class="" href="login/">Login</a>
-                          <a class="" href="register/">Register</a>
+                          <a class="" href="../sports/registration.php">Login</a>
+                          <!-- <a class="" href="register/">Register</a> -->
                   </div>
               </div>
           </div>

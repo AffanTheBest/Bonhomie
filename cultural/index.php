@@ -81,7 +81,7 @@
                         <img class="img-fluid" src="https://svgshare.com/i/STL.svg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Qira't</h2>
-                              <a href="../../event-registration">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -96,7 +96,7 @@
                         <img class="img-fluid" src="https://telegra.ph/file/f0deb095b9eeadc95af5c.png" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Mushaira</h2>
-                              <a href="../../event-registration">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">
@@ -111,7 +111,7 @@
                         <img class="img-fluid" src="https://svgshare.com/i/SSs.svg" alt="">
                           <div class="caption">
                               <h2 class="text-center font-weight-bold text-white">Speech</h2>
-                              <a href="../../event-registration">Register</a>
+                              <a href="../sports/registration.php">Register</a>
                           </div>
                       </div>
                     <div class="card-body">

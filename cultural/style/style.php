@@ -36,12 +36,11 @@ margin-bottom: 50px;}
   display: grid;
   place-items: center;
   box-shadow: 10px 2px 20px rgba(0,0,0,0.3) inset;
-  background:url(eventbg1.png) , url(eventbg1.png);
+  background:url("eventbg1.png") , url("eventbg1.png");
   background-repeat: no-repeat;
   background-position: 0 0 , 100% 100%;
   background-size: 30% 65%;
-  
-}
+  }
 
 .card {
   border: none!important;
@@ -113,7 +112,10 @@ margin-bottom: 50px;}
 .cardheader:hover .caption{
   opacity: 1;
 }
-
+.col .card-body{
+  border: 1px solid transparent!important;
+  cursor: default;
+}
 .carousel-indicators li{
   width: 15px!important;
   height: 15px!important;
@@ -122,10 +124,7 @@ margin-bottom: 50px;}
   background-color: #0984e3!important;
 }
 
-.col .card-body{
-  border: 1px solid transparent!important;
-  cursor: default;
-}
+
 #footer{
   background: rgba(10, 24, 61,0.9);
   height: 33vh;

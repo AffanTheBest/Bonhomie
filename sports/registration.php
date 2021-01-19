@@ -26,16 +26,13 @@
               <a class="nav-link active" href="..">Home</a>
             </li>
             <li class="nav-item ml-1">
-              <a class="nav-link" href="#events">Events</a>
+              <a class="nav-link" href="../sports/">Sports</a>
             </li>
             <li class="nav-item ml-1">
-              <a class="nav-link" href="sports/">Sports</a>
+              <a class="nav-link" href="../technical/">Technical</a>
             </li>
             <li class="nav-item ml-1">
-              <a class="nav-link" href="technical/">Technical</a>
-            </li>
-            <li class="nav-item ml-1">
-              <a class="nav-link" href="cultural/">Cultural</a>
+              <a class="nav-link" href="../cultural/">Cultural</a>
             </li>
           </ul>
         </div>
