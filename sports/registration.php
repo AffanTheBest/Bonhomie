@@ -3,7 +3,7 @@
   <head>
   <?php
      include('links/links.php');
-     include('style/style.php'); 
+     include('style/register.php'); 
 
     ?>
 
