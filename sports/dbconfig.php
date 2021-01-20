@@ -11,21 +11,15 @@ if($con){
     ?>
         <script>
          //alert("Connection Successful");
-
         </script>
     <?php
 
 } else{
     ?>
         <script>
-            alert("NO Connection")
-    
+            alert("No Connection")
         </script>
     <?php
 }
-
-   
-
-
 
 ?>

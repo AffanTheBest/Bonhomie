@@ -81,7 +81,7 @@ include('includes/navbar.php');
       <div class="table-responsive">
 
         <?php
-            $connection =mysqli_connect("localhost","root","","Bonhomie");
+            $connection =mysqli_connect("remotemysql.com","IipECoeakJ","i9a7MM89Ma","IipECoeakJ");
 
             $query="select * from adminregister";
             $query_run= mysqli_query($connection,$query);

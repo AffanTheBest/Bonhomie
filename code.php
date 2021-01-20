@@ -1,7 +1,7 @@
 
 <?php
 
-$connection =mysqli_connect("localhost","root","","Bonhomie");
+$connection =mysqli_connect("remotemysql.com","IipECoeakJ","i9a7MM89Ma","IipECoeakJ");
 if(isset($_POST['submit01'])){
    $name=$_POST['name'];
    $email=$_POST['email'];
@@ -18,6 +18,7 @@ if(isset($_POST['submit01'])){
            
            </script>
            <?php
+           header('location: index.php');
        }
        else
        {    

@@ -2,6 +2,7 @@
 
 /**code for sports registration */
 include  'dbconfig.php';
+
 if(isset($_POST['event_regbtn'])){
     $fname=mysqli_real_escape_string($con,$_POST['fullname']);
     $w_number=mysqli_real_escape_string($con,$_POST['wnumber']);
@@ -25,7 +26,7 @@ if(isset($_POST['event_regbtn'])){
                 <?php
     }else{
         if(1){
-            $insertquery ="insert into sportsRegistration (Name ,contactNumber,Department,year,EventName,PlayerName) values('$fname','$w_number','$dpt','$year','$event_name',''$team_p)";
+            $insertquery ="insert into sportsRegistration (Name ,contactNumber,Department,year,EventName,PlayerName) values('$fname','$w_number','$dpt','$year','$event_name','$team_p')";
 
              $iquery=mysqli_query($con,$insertquery);
 
@@ -33,9 +34,9 @@ if(isset($_POST['event_regbtn'])){
                 ?>
                     <script>
                         alert("Registration Successful");
-
                      </script>
                      <?php
+                     header("location: ../");
 
              }else{
                  ?>
@@ -51,18 +52,7 @@ if(isset($_POST['event_regbtn'])){
                 </script>
                 <?php
         }
-
-
-    
     }
-
-
-
   } 
-
-
-
-
-
 
 ?>
