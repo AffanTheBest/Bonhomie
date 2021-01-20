@@ -9,4 +9,4 @@ Managed By :
 
 ------------------------------
 
-<a href="https://bonhomie-aiktc.herokuapp.com/" style="align:center><h2>Visit Web Page</h2></a>
+<a href="https://bonhomie-aiktc.herokuapp.com/" align=center><h2>Visit Web Page</h2></a>
